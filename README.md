@@ -79,7 +79,9 @@ The proposed solution contains a series of classes and functions that divide the
 - python 3
 - pytest
 
+#### Install
 
+python setup.py install 
 
 #### Run program
 ```console

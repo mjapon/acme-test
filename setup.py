@@ -19,6 +19,6 @@ setup(name='ioet_mj_test',
           'testing': tests_require,
       },
       install_requires=requires,
-      url='https://github.com/mjapon/.......',
+      url='https://github.com/mjapon/acme-test',
       packages=find_packages()
       )
