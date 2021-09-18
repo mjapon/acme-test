@@ -20,11 +20,11 @@ class WorkDay:
                                       entry.get_hour_cost(self.day))
             entry_time_idx = schedule_types.index(entry.type)
 
-            for sch_type in schedule_types[entry_time_idx + 1:]:
-                if sch_type == departure.type:
+            for it_type in schedule_types[entry_time_idx + 1:]:
+                if it_type == departure.type:
                     return payment + compute_payment(departure.acme_schedule.min_time, departure.time,
                                                      departure.get_hour_cost(self.day))
                 else:
-                    sch_type_info = schedule_types_info[sch_type]
+                    sch_type_info = schedule_types_info[it_type]
                     payment = payment + compute_payment(sch_type_info.min_time, sch_type_info.max_time,
                                                         sch_type_info.get_hour_cost(self.day))

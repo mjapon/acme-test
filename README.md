@@ -88,6 +88,6 @@ python src/main.py <INPUT>
 
 #### Run unit tests
 ```console
-pytest 
+pytest -v
 ```
 
