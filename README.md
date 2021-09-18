@@ -58,18 +58,6 @@ OUTPUT:
 
 The amount to pay ASTRID is: 85 USD
 
-Once you have finished the exercise, please upload the solution to GitHub and send us the link. Don’t forget to include a README.md file. Your README should include an overview of your solution, an explanation of your architecture, an explanation of your approach and methodology and instructions how to run the program locally.
-
-We evaluate many aspects, including how well your code is structured, applied pattern designs, testing and the quality of your solution.
-
-The solution shouldn’t need any UI, a console application is good enough.
-
-When submitting your exercise, be sure to avoid including compiled files as this could be considered malware. Please include the proper instructions to compile your project in the README file
-
-This exercise should be completed within a week. If for some reason you are unable to finish on time, please let us know.
-
-
-
 # Solution
 
 The proposed solution contains a series of classes and functions that divide the problem to be dealt with, such as work schedules, among others, within the ctes module, the schedules and costs proposed in this exercise are defined, which may be useful in the case of changing this proposed logic. The code carried out includes unit tests to validate the functions carried out.
