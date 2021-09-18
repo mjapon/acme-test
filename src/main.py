@@ -27,7 +27,6 @@ def compute_payment(input_data):
 
 
 if __name__ == '__main__':
-    print('Acme Test Manuel Japon:')
     try:
         input = sys.argv[1]
         valid_input(input)
